@@ -1,9 +1,7 @@
 language: node_js
 node_js:
   - "8.9.4"
-env:
-  - ELM_VERSION=0.18.0
-  - ELM_TEST_VERSION=0.18.0
+env: ELM_VERSION=0.18.0 ELM_TEST_VERSION=0.18.0
 install:
   - npm install -g elm@$ELM_VERSION elm-test@$ELM_TEST_VERSION
 script:
