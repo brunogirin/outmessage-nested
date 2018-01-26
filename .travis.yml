@@ -4,4 +4,4 @@ node_js:
 install:
   - npm install -g elm elm-test
 script:
-  - elm test
+  - make
