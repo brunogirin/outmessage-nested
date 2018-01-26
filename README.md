@@ -2,10 +2,10 @@
 
 This package is a simple extension to
 [OutMessage](http://package.elm-lang.org/packages/folkertdev/outmessage/latest/)
-for nested components, that is scenarios where the chhild returns an
+for nested components, that is scenarios where the chhild returns a
 `ChildOutMsg` and the parent returns a `ParentOutMsg`.
 
-This package is meant to function in exactlye the same way as `OutMessage`
+This package is meant to function in exactly the same way as `OutMessage`
 while handling the transformation of child message to parent message:
 
 ```elm
