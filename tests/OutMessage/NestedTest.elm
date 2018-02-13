@@ -34,7 +34,7 @@ interpret child model =
 
 all : Test
 all =
-    describe "Imby.OutMessageNested package test suite"
+    describe "OutMessage.Nested package test suite"
         [ test "evaluate" <|
             \() ->
                 Expect.equal
