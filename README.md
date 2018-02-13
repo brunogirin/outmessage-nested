@@ -22,7 +22,7 @@ ChildComponentMessageWrapper childMsg ->
         |> OutMessage.Nested.evaluate interpretOutMsg
 ```
 
-# Health warning
+## Health warning
 
 Having nested child modules is a sign that your Elm application is complex and
 potentially over-engineered. There are perfectly valid reasons for doing so
@@ -30,7 +30,7 @@ and this package will help you when this is the case. However, you may also
 consider re-factoring your application to get rid of the nesting and simplify
 your design.
 
-# Thanks
+## Thanks
 
 Thanks to [folkertdev](https://github.com/folkertdev) for the great OutMessage
 library.
