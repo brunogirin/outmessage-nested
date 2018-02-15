@@ -1,5 +1,5 @@
 {
-    "version": "1.0.1",
+    "version": "1.0.2",
     "summary": "Extension to the OutMessage package to deal with nested scenarios",
     "repository": "https://github.com/imbybio/outmessage-nested.git",
     "license": "BSD3",
